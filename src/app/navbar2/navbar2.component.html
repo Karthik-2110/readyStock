@@ -1,0 +1,52 @@
+<div class="container-fluid nav-cstm hide_nav">
+    <div class="nav-container text-dark d-flex align-items-center justify-content-between">
+        <div class="logo"><img src="../../assets/Images/brandlogo.svg" class="img-fluid logo-img" alt=""> <span class="brand-name">Ready Stock</span></div>
+        <div class="nav-links d-flex flex-row">
+            <span class="me-5 clickable d-flex flex-row align-items-center" routerLink="/home">
+                 <span>Home</span>
+             </span>
+            <span class="clickable me-5"> <span>Gallery</span> </span>
+            <span class="clickable  me-5" routerLink="/contact"> <span>Contact Us</span> </span>
+            <span class="clickable"> <span>Accessories</span> </span>
+        </div>
+    </div>
+</div>
+
+<div class="information-container mobile_nav">
+    
+    <div class="accordion-container">
+        <div class="d-flex flex-row align-items-center justify-content-between">
+            <span class="btn-question" (click)="isCollapsed2 = !isCollapsed2">
+                <div class="logo"><img src="../../assets/Images/brandlogo.svg" class="img-fluid logo-img" alt=""> <span class="brand-name">Ready Stock</span></div>
+            </span>
+            <span
+                *ngIf="isCollapsed2"
+                class="toggle"
+                (click)="isCollapsed2 = !isCollapsed2"
+                [attr.aria-expanded]="!isCollapsed2"
+                aria-controls="collapseExample" > Collapse
+            </span>
+            <span
+            *ngIf="!isCollapsed2"
+            class="toggle"
+            (click)="isCollapsed2 = !isCollapsed2"
+            [attr.aria-expanded]="!isCollapsed2"
+            aria-controls="collapseExample" >Expand
+        </span>
+        </div>
+        <div #collapse="ngbCollapse" class="card-parent" [(ngbCollapse)]="!isCollapsed2">
+            <div class="card nav-card">
+                <div class="card-body d-flex flex-column">
+                    <div class="nav-links d-flex flex-column">
+                        <span class="mt-4 clickable_mobile d-flex flex-row align-items-center" routerLinkActive="active" routerLink="/home">
+                             <span>Home</span>
+                         </span>
+                        <span class="clickable_mobile mt-4"> <span>Gallery</span> </span>
+                        <span class="clickable_mobile  mt-4" routerLink="/contact" routerLinkActive="active"> <span>Contact Us</span> </span>
+                        <span class="clickable_mobile mt-4"> <span>Accessories</span> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
