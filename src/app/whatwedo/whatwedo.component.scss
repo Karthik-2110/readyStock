@@ -100,14 +100,13 @@
     border: 1px solid #E5E5E5;
     padding: 12px 12px;
     border-radius: 80px;
-    max-width: 400px;
+    // width: 400px;
     margin-right: 18px;
-
     transition: all 0.5s ;
     
     .circle-img {
-        height: 80px;
-        width: 80px;
+        min-height: 80px !important;
+        min-width: 80px !important;
         border-radius: 50%;
         background-color: #0D0F10;
     }
@@ -121,6 +120,7 @@
             font-size: 20px;
             font-weight: 600;
             color: #292929;
+            white-space: nowrap;
         }
 
         .link {
@@ -128,6 +128,10 @@
             font-size: 14px;
             font-weight: 400;
             margin-top: 6px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            white-space: nowrap;
         }
 
         .arrow {
@@ -219,7 +223,11 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+.web_vanish {
+    overflow-x: scroll;
+}
+
+@media only screen and (max-width: 912px) {
     .web_vanish {
       display: none;
     }
@@ -240,7 +248,8 @@
     }
 
     .what_we_do_container {
-        padding: 60px 0 60px 32px;
+        padding: 32px 0 32px 32px;
+        overflow: hidden;
     }
   }
 
