@@ -67,3 +67,9 @@
     height: 24px;
     width: 24px;
 }
+
+@media only screen and (max-width: 720px) {
+    .benchmarks_container {
+        padding: 60px 32px;
+    }
+}

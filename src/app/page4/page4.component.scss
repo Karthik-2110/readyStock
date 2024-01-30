@@ -193,3 +193,38 @@
     border-radius: 4px;
     background-color: #c073ff0b;
 }
+
+@media only screen and (max-width: 720px) {
+    .content {
+        padding: 32px !important;
+    }
+
+    .heading {
+       font-size: 2.6rem !important;
+       white-space: nowrap;
+    }
+
+    .heading1 {
+        white-space: nowrap;
+        font-size: 1.6rem !important;
+    }
+
+    .btn-question {
+        font-size: 1.2rem;
+    }
+
+    .para1 {
+        font-size: 18px !important;
+        line-height: 24px;
+    }
+
+    .card-body {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .contact_us_sub {
+        font-size: 18px !important;
+        line-height: 26px;
+    }
+   }
