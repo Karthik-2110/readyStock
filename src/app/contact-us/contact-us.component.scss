@@ -25,13 +25,9 @@
 .sub-text {
     color: #292929;
     margin-top: 24px;
-    font-size: 16px;
+    font-size: 18px;
     opacity: 60%;
-}
-
-.hero-img {
-    height: 360px;
-    width: auto;
+    line-height: 24px;
 }
 
 .btn-know {
@@ -84,38 +80,6 @@
     padding: 32px 60px;
 }
 
-.benchmarks_container {
-    padding: 60px 60px;
-    background-color: #EDECFF;
-    border-top: 1px solid #0D0F10;
-    border-bottom: 1px solid #0D0F10;
-
-    .box1 {
-        padding: 20px 60px 20px 0px;
-    }
-
-    .icon1 {
-        height: 42px;
-        width: 42px;
-    }
-
-    .count {
-        font-size: 52px;
-        font-weight: 800;
-        color: #0D0F10;
-
-        margin-top: 40px;
-    }
-
-    .count_sub {
-        margin-top: 24px;
-
-        font-size: 18px;
-        color: #0D0F10;
-        opacity: 0.6;
-        letter-spacing: 1px;
-    }
-}
 
 .what_we_handle_container {
     padding: 32px 60px;
@@ -276,12 +240,54 @@
     font-weight: 500;
 }
 
-// .img-carousel {
-//     overflow: hidden;
-// }
-
 .img-wrap-cont {
     display: flex;
     flex-direction: row;
     width: 400px;
 }
+
+// this will be visible for mobile and tab
+@media only screen and (max-width: 771px) {
+    .content-body {
+        padding: 32px;
+    }
+
+    .buttons_wrapper {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .btn-know {
+        margin-top: 24px !important;
+    
+        background-color: #1E1E1E;
+        color: #EDECFF;
+        border-radius: 50px;
+        font-size: 16px;
+        height: 62px;
+        width: 80vw;
+    
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn-mail {
+        margin-top: 24px !important;
+    
+        // background-color: #1E1E1E;
+        border: 1px solid #1E1E1E;
+        color: #1E1E1E;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        height: 62px;
+        width: 80vw;
+    
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+ } 

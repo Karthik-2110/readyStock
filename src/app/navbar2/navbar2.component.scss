@@ -11,15 +11,15 @@
 }
 
 .logo-img {
-    height: 28px;
-    width: 28px;
+    height: 42px;
+    width: 42px;
 }
 
 .brand-name {
-    margin-left: 8px;
-    font-size: 16px;
+    margin-left: 12px;
+    font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #292929;
 }
 
 .nav-cstm {
@@ -205,9 +205,9 @@
     font-size: 16px;
 }
 
-.accordion-container {
-    margin-top: 32px;
-}
+// .accordion-container {
+//     margin-top: 32px;
+// }
 
 .card-parent {
     margin-top: 14px;
@@ -241,7 +241,7 @@
 }
 
 .information-container {
-    padding: 32px;
+    padding: 24px;
     background-color: #050000;
     border-bottom: 0.5px solid #fff;
 }
@@ -254,6 +254,11 @@
 
 .clickable_mobile {
     font-size: 18px;
+}
+
+.menu-icon {
+    height: 42px;
+    width: auto;
 }
 
 @media only screen and (max-width: 768px) {

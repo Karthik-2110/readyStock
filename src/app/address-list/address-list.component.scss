@@ -22,6 +22,10 @@
     padding: 32px 60px;
 }
 
+.address_row {
+    overflow-x: scroll;
+}
+
 .content {
     padding: 40px 60px;
 
@@ -206,3 +210,49 @@
     height: auto;
     width: 500px;
 }
+
+// this will be visible for desktop
+@media only screen and (min-width: 770px) {
+    .web_vanish_mobile {
+        display: none;
+    }
+} 
+
+// this will be visible for mobile and tab
+@media only screen and (max-width: 771px) {
+   .mobile_vanish {
+    display: none;
+   }
+
+   .what_we_do_container {
+     padding: 32px;
+    }
+
+    .container1 {
+        padding: 14px;
+        max-height: 140px;
+    }
+} 
+
+
+
+@media only screen and (max-width: 912px) {
+    .web_vanish {
+      display: none;
+    }
+
+    .hero-text {
+        font-size: 3.5rem;
+        font-weight: 550;  
+    }
+
+    .sub-text {
+        font-size: 1.1rem;
+        line-height: 24px;
+    }
+
+    .btn-know {
+        width: 100%;
+        height: 60px;
+    }
+  }

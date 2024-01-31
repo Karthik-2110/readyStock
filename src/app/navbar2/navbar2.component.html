@@ -24,14 +24,16 @@
                 class="toggle"
                 (click)="isCollapsed2 = !isCollapsed2"
                 [attr.aria-expanded]="!isCollapsed2"
-                aria-controls="collapseExample" > Collapse
+                aria-controls="collapseExample" > 
+                <img src="../../assets/Images/close.svg" alt="" class="menu-icon">
             </span>
             <span
             *ngIf="!isCollapsed2"
             class="toggle"
             (click)="isCollapsed2 = !isCollapsed2"
             [attr.aria-expanded]="!isCollapsed2"
-            aria-controls="collapseExample" >Expand
+            aria-controls="collapseExample" >
+            <img src="../../assets/Images/menu.svg" alt="" class="menu-icon">
         </span>
         </div>
         <div #collapse="ngbCollapse" class="card-parent" [(ngbCollapse)]="!isCollapsed2">
