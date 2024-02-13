@@ -18,6 +18,7 @@ import { Page4Component } from './page4/page4.component';
 import { WhatwedoComponent } from './whatwedo/whatwedo.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AddressListComponent } from './address-list/address-list.component';
+import { AccessoriesComponent } from './accessories/accessories.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AddressListComponent } from './address-list/address-list.component';
     Page4Component,
     WhatwedoComponent,
     ContactUsComponent,
-    AddressListComponent
+    AddressListComponent,
+    AccessoriesComponent
   ],
   imports: [
     BrowserModule,
