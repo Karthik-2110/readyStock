@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+.nav-container {
+  position: fixed;
+  width: 100vw;
+  z-index: 99999;
+}
+
 .content-body {
-  background-color: #edecff;
+  background-color: #ca4542;
   // position: absolute;
   width: 100%;
   top: 0;
@@ -17,13 +23,13 @@
 .hero-text {
   font-size: 3.2rem;
   font-weight: 600;
-  color: #292929;
+  color: #fff;
   line-height: 52px;
   letter-spacing: 2px;
 }
 
 .sub-text {
-  color: #292929;
+  color: #fff;
   margin-top: 24px;
   font-size: 16px;
   opacity: 60%;
@@ -62,7 +68,7 @@
 
 .benchmarks_container {
   padding: 60px 60px;
-  background-color: #edecff;
+  background-color: #ca4542;
   border-top: 1px solid #0d0f10;
   // border-bottom: 1px solid #0D0F10;
 
@@ -78,7 +84,7 @@
   .count {
     font-size: 52px;
     font-weight: 800;
-    color: #0d0f10;
+    color: #fff;
 
     margin-top: 40px;
   }
@@ -87,7 +93,7 @@
     margin-top: 24px;
 
     font-size: 18px;
-    color: #0d0f10;
+    color: #fff;
     opacity: 0.6;
     letter-spacing: 1px;
   }
@@ -100,14 +106,14 @@
 .text-1 {
   font-size: 60px;
   font-weight: 500;
-  color: #292929;
+  color: #fff;
   letter-spacing: 1px;
 }
 
 .text-highlight-1 {
   font-size: 60px;
   font-weight: 500;
-  color: #c173ff;
+  color: #fff;
   letter-spacing: 1px;
 }
 
