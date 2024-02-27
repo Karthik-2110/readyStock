@@ -46,7 +46,27 @@
 }
 
 .active {
-    color: #ca4542;
+    color: #ca4542 !important;
+    background-color: transparent;
+}
+
+.dropdownBasic1 {
+    padding: 16px !important;
+    background-color: #050000;
+    border-radius: 8px;
+    border: 1px solid #ffffff6b;
+}
+
+.clickable-sub {
+    font-size: 16px;
+    color: #ffffffa3;
+    margin-bottom: 16px;
+    transition: all 0.3s;
+}
+
+.clickable-sub:hover {
+    background-color: transparent;
+    color: #fff;
 }
 
 .information-container {

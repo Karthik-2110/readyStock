@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.nav-container {
+    position: fixed;
+    width: 100vw;
+    z-index: 99999;
+}
+
+.the_very_first_row {
+    margin-top: 100px !important;
+}
+
 .img-container {
     background-color: #0D0F10;
     height: 400px;

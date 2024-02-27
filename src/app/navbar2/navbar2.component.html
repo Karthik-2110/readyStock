@@ -5,6 +5,19 @@
             <span class="me-5 clickable d-flex flex-row align-items-center" routerLink="/home" routerLinkActive="active">
                  <span>Home</span>
              </span>
+             <span class="me-5">
+                <div ngbDropdown class="clickable">
+                    <span type="button" class="clickable" id="dropdownBasic1" ngbDropdownToggle>
+                        Products
+                    </span>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdownBasic1">
+                        <span class="clickable-sub" ngbDropdownItem routerLink="/high-resolution-manometry" routerLinkActive="active">High Resolution Manoetry</span>
+                        <span class="clickable-sub" ngbDropdownItem routerLink="/ZepHR" routerLinkActive="active">ZepHR Impedence</span>
+                        <span class="clickable-sub" ngbDropdownItem routerLink="/hydrogen-breathe-test" routerLinkActive="active">Hydrogen Blood Test</span>
+                        <span class="clickable-sub" ngbDropdownItem routerLink="/catheter" routerLinkActive="active">Solid State Manoetry</span>
+                    </div>
+                </div>
+            </span>
             <span class="clickable  me-5" routerLink="/contact" routerLinkActive="active"> <span>Contact Us</span> </span>
             <span class="clickable" routerLink="/accessories" routerLinkActive="active"> <span>Accessories</span> </span>
         </div>
