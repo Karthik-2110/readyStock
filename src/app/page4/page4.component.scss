@@ -8,13 +8,17 @@
     height: 400px;
     width: 100vw;
     overflow: hidden;
-    background-color: #0F1111;
+    background-color: #fff;
+    text-align: center;
 
     .bg-cover {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        height: -webkit-fill-available;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover; 
+        // height: -webkit-fill-available;
+        width: 50%;
+        height: auto;
+
     }
 }
 
