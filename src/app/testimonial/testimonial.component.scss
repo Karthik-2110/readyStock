@@ -24,6 +24,40 @@
     width: auto;
   }
 
+  @media only screen and (max-width: 768px) {
+    .doctor-name {
+      font-size: 24px;
+      font-weight: 500;
+      color: #0d0f10;
+      text-align: center;
+      line-height: 32px;
+  }
+
+  .description {
+      width: 80%;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+  }
+  }
+
+  @media only screen and (min-width: 770px) {
+    .doctor-name {
+      font-size: 32px;
+      font-weight: 500;
+      color: #0d0f10;
+      text-align: center;
+      line-height: 32px;
+  }
+
+  .description {
+      width: 80%;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+  }
+  }
+
   .testimonial-card {
     border: none;
 
@@ -41,9 +75,11 @@
     }
 
     .doctor-name {
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 500;
         color: #0d0f10;
+        text-align: center;
+        line-height: 32px;
     }
 
     .description {
