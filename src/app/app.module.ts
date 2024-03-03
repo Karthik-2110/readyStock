@@ -19,6 +19,8 @@ import { WhatwedoComponent } from './whatwedo/whatwedo.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AddressListComponent } from './address-list/address-list.component';
 import { AccessoriesComponent } from './accessories/accessories.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { ClientHospitalsComponent } from './client-hospitals/client-hospitals.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { AccessoriesComponent } from './accessories/accessories.component';
     WhatwedoComponent,
     ContactUsComponent,
     AddressListComponent,
-    AccessoriesComponent
+    AccessoriesComponent,
+    TestimonialComponent,
+    ClientHospitalsComponent
   ],
   imports: [
     BrowserModule,

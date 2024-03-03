@@ -7,6 +7,7 @@ import { Page3Component } from './page3/page3.component';
 import { Page4Component } from './page4/page4.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AccessoriesComponent } from './accessories/accessories.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch:'full'},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'catheter', component: Page4Component},
   {path: 'contact', component: ContactUsComponent},
   {path: 'accessories', component: AccessoriesComponent},
+  {path: 'testimonial', component: TestimonialComponent},
 ];
 
 @NgModule({
