@@ -143,7 +143,7 @@
 
 .container1:hover {
     cursor: pointer;
-    background-color: #faf6ff;
+    background-color: rgba(202, 69, 66, 0.08);;
 
     .link {
         text-decoration: underline;
@@ -193,9 +193,9 @@
 
 .card-body {
     padding: 20px;
-    border: 1px solid #C173FF;
+    border: 1px solid #ca4542;
+    background-color: rgb(202 69 66 / 8%);
     border-radius: 4px;
-    background-color: #c073ff0b;
 }
 
 @media only screen and (max-width: 720px) {
@@ -231,4 +231,13 @@
         font-size: 18px !important;
         line-height: 26px;
     }
+   }
+
+   .downloadalbe {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #0D0F10;
+    padding: 8px 14px;
+    border-radius: 4px;
    }
