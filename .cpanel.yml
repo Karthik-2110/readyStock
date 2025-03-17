@@ -1,6 +1,8 @@
-   ---
-   deployment:
-     tasks:
-       - export DEPLOYPATH=/home/k6sl88pv3yxq/public_html/
-       - /bin/cp -R src/* $DEPLOYPATH
-       - /bin/cp -R images $DEPLOYPATH
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/k6sl88pv3yxq/public_html/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -Rf ./src/* $DEPLOYPATH || echo "No src directory found"
+    - /bin/cp -Rf ./images $DEPLOYPATH || echo "No images directory found"
+    - /bin/cp -f index.html $DEPLOYPATH || echo "No index.html found in root"
